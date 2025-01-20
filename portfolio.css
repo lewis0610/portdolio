@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.premier {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+.premier nav{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+
+   }
+   h1 {
+    margin: 1.5rem;
+   }
+.masection {
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    height: 400px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    gap: 2rem;
+    
+}
+#image {
+    background-image: url(lewis.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position:center ;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+#decla {
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height: 400px; 
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 1px solid green;
+    border-radius: 50%;
+}
